@@ -1,0 +1,56 @@
+/*- Style background of page-*/
+
+.container-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.banner-bg {
+	height: 846px;
+	background: url("../img/bg.png") no-repeat top center;
+	background-size: cover;
+}
+
+.slider-bg {
+	width: 100%;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 279px;
+	left: 0;
+	z-index: 10;
+}
+
+.about-bg {
+	height: 342px;
+	background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+}
+
+.updates-bg {
+	height: 485px;
+	background-color: #f9f9f9;
+}
+
+.partners-bg {
+	height: 120px;
+	background-color: #f9f9f9;
+	border: 1px solid #ececec;
+	outline: 1px solid #fefefe;
+}
+
+.bottom-sector-bg {
+	height: 398px;
+	background-color: #ececec;
+}
+
+.footer-bg {
+	height: 113px;
+	background: url("../img/footer-bg.png") no-repeat top center;
+	background-size: cover;
+}
+
+/*-*/

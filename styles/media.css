@@ -1,0 +1,399 @@
+@media screen and (max-width:800px) {
+	.wrapper {
+		max-width: 768px;
+		width: 100%;
+	}
+	.logo {
+		width: 50%;
+		padding-bottom: 33px;
+	}
+	.head-wrap,
+	.nav-bar {
+		width: 85%
+	}
+	h5,
+	.updates__col2-button {
+		display: none;
+	}
+	.partners__logo {
+		width: 100%;
+	}
+	.slider__txt {
+		width: 290px;
+		height: 105px;
+		margin-left: 22px;
+	}
+	.slider__txt h1 {
+		font-size: 48px;
+	}
+	.slider__txt h2 {
+		height: 36px;
+		font-size: 24px;
+		overflow: hidden
+	}
+	.slider__txt p {
+		height: 108px;
+		font-size: 16px;
+		overflow: hidden;
+	}
+	.slider__picture {
+		margin-right: 40px;
+	}
+	.sprite-Layer_35,
+	.sprite-Layer_36 {
+		width: 30px;
+		height: 32px;
+		background-position: -5px -5px;
+	}
+	.about-wrap {
+		width: 30%;
+		height: 192px;
+		letter-spacing: 0
+	}
+
+	.about-wrap__txt_head {
+		font-size: 24px;
+		margin-bottom: 0;
+		height: auto;
+	}
+
+	.about-wrap__txt_info {
+		height: 149px;
+		padding: 0 10px 0 5px;
+
+	}
+	.updates-col1 {
+		width: 42%;
+	}
+	.updates-col1 h4::before,
+	.updates__col2-button_mobile {
+		display: block;
+	}
+	.updates-col1__txt {
+		height: 140px;
+	}
+	.updates-col2 {
+		overflow: hidden;
+	}
+
+	.post {
+		height: 43px;
+		overflow: hidden;
+	}
+	.bottom-sector-col h4 {
+		display: none;
+	}
+	.bottom-sector-col__txt::before {
+		content: "news categories";
+		display: block;
+		text-shadow: 1px 1px 0 #ffffff;
+		color: #454545;
+		font-family: "League Gothic";
+		font-size: 30px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	.bottom-sector-col__txt,
+	.bottom-sector-col:first-of-type .bottom-sector-col__txt {
+		height: 210px;
+		padding: 11px 0 0 2px;
+	}
+	footer nav {
+		width: 70%;
+	}
+	footer span {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	.wrapper {
+		max-width: 480px;
+		width: 100%;
+	}
+	header {
+		height: 203px;
+	}
+	.head-wrap,
+	.logo,
+	.nav-bar,
+	.slider,
+	.about-wrap {
+		width: 100%;
+	}
+	.logo {
+		display: flex;
+		justify-content: center;
+		padding: 0;
+	}
+	.menu,
+	.slider__picture img:nth-child(1),
+	.slider__picture img:nth-child(2),
+	.play-btn,
+	.slider__txt p,
+	.angle {
+		display: none;
+	}
+
+	.menu-mobile {
+		display: block;
+	}
+	.slider {
+		height: 246px;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.slider__txt {
+		width: 55%;
+		height: 207px;
+		padding: 0;
+	}
+
+	.slider__picture img:nth-child(3) {
+		display: block;
+		position: absolute;
+		z-index: 90;
+	}
+	.slider h1 {
+		font-size: 36px;
+		letter-spacing: -0.6px;
+		margin-bottom: 0;
+	}
+	.slider h2 {
+		font-size: 18px;
+		letter-spacing: -0.6px;
+		line-height: normal;
+	}
+
+	.shape-box {
+		top: 265px;
+	}
+	.about {
+		height: 600px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 25px;
+		padding: 70px 0 73px;
+	}
+	.about-wrap {
+		height: 130px;
+	}
+	.about-wrap__txt_info {
+		height: 67px
+	}
+	.updates {
+		height: 790px;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-top: 72px;
+	}
+	.updates-col1 h4::before {
+		display: inline;
+	}
+	.updates-col1 {
+		width: 93.5%;
+		height: 272px;
+		margin: 0 0 0 20px;
+	}
+	.updates-col1__txt {
+		width: 85%;
+		height: 162px;
+	}
+
+	.updates-col2 {
+		width: 76%;
+		height: 261px;
+		margin: 92px auto 0;
+	}
+	.post,
+	.updates-col2 h6 {
+		margin-left: 20px;
+	}
+	.partners {
+		display: flex;
+		height: 232px;
+	}
+	.partners__logo {
+		height: 70%;
+		width: 73.5%;
+		display: flex;
+		align-items: center;
+		align-content: space-around;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: auto;
+	}
+	.partners__logo i {
+		margin: 10px;
+	}
+	.bottom-sector {
+		height: 670px;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 81px 0;
+	}
+	.bottom-sector-col {
+		width: 95%;
+		height: 140px;
+	}
+	.bottom-sector-col__txt::before {
+		font-size: 24px;
+	}
+	footer .menu {
+		display: flex;
+		margin: 40px auto 0;
+	}
+	.creator {
+		margin: 10px auto;
+		position: static;
+	}
+	/*-background sections height-*/
+	.banner-bg {
+		height: 550px;
+	}
+	.slider-bg {
+		height: 234px;
+		top: 203px;
+	}
+	.about-bg {
+		height: 598px;
+	}
+	.updates-bg {
+		height: 790px;
+	}
+	.partners-bg {
+		height: 230px;
+	}
+	.bottom-sector-bg {
+		height: 670px;
+	}
+	.footer-bg {
+		height: 199px;
+	}
+	/*-*/
+}
+
+@media screen and (max-width: 470px) {
+	.wrapper {
+		max-width: 320px;
+		width: 100%;
+	}
+	.menu-mobile {
+		box-shadow: none;
+		
+	}
+	.menu-mobile__item:first-child{
+		border: 1px solid transparent;
+		background: transparent;
+	}
+		
+	figure,
+	.shape-box,
+	.bottom-sector,
+	footer .nav-bar {
+		display: none;
+	}
+	.slider {
+		align-items: flex-start;
+	}
+	.slider__txt {
+		width: 70%;
+	}
+
+	.mobile-wrapper,
+	.updates-col1 h4::before,
+	.post::first-line {
+		display: block;
+	}
+	.about,
+	.slider__txt,
+	.about-wrap,
+	.updates,
+	.updates-col1 {
+		margin: 0 auto;
+	}
+	.about-wrap__txt {
+		letter-spacing: -0.5px;
+	}
+	.about-wrap {
+		width: 85%;
+	}
+	.updates,
+	.post::first-line {
+		width: 90%;
+	}
+	.updates-col1,
+	.updates-col2,
+	.partners__logo {
+		width: 100%;
+	}
+	.updates-col1 h4 {
+		margin: 0;
+		line-height: 30px;
+	}
+
+	.updates-col1__txt {
+		width: 178px;
+		height: 165px;
+		letter-spacing: -0.5px;
+		margin: 0;
+	}
+	.shape-box2 {
+		left: 97px
+	}
+	.updates-col2 {
+		margin: 78px 0 0 0;
+		padding: 0;
+	}
+	.post {
+		margin: 0;
+		padding-left: 17px;
+		letter-spacing: -0.5px;
+	}
+	.post__header {
+		height: 24px;
+		overflow: hidden;
+	}
+	.post::first-line {
+		height: 15px;
+	}
+	.partners {
+		height: 422px;
+		align-items: center
+	}
+	.partners__logo {
+		height: 294px;
+		margin: auto;
+		align-content: center;
+		justify-content: center;
+	}
+	.partners__logo i:nth-child(even) {
+		margin: 28px;
+	}
+	/*-background sections height-*/
+	.banner-bg {
+		height: 516px;
+	}
+	.slider-bg {
+		display: none;
+	}
+	.updates-bg {
+		height: 787px;
+	}
+	.partners-bg {
+		height: 422px;
+	}
+	.bottom-sector-bg {
+		display: none;
+	}
+	.footer-bg {
+		height: 200px;
+	}
+	/*-*/
+}

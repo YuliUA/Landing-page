@@ -1,0 +1,18 @@
+@import url(normalize.css);
+@import url(fontsheet.css);
+@import url(spritesheet.css);
+@import url("bg-page.css");
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(media.css);
+
+.wrapper {
+	max-width: 960px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-top: 70px;
+}
